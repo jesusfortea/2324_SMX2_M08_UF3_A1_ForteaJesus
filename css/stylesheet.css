@@ -9,49 +9,37 @@
 */
 
 #encabezado{
-    width: 100%;
+    width: 85%;
     background-image: url(../Img/BatmanImages/header_background.jpeg);
-    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
-/*
-    Hacemos el display flex dentro del articulo de la web
-*/
 
-#article_web{
-    width: 100%;
+.espacio{
+    padding-left: 25%;
 }
 
-#cuerpo{
-    width: 100%;
-    font-size: 107%;
-    font-family: Arial, Helvetica, sans-serif;
+#espaciotit{
+    padding-left: 6%;
 }
+
 
 #h1{
-    font-size: 135%;
+    font-size: 300%;
+    color: aliceblue;
+    width: 50%;
 }
 
-.imagen{
-    width: 100%;
+.estilo{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
-.link{
-    color: green;
-}
-
-#sección{
-    width: 100%;
-    font-size: 107%;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#espacio1{
-    width: 33.33%;
-    padding-left: 33.33%;
-}
-
-#espacio2{
-    width: 33.33%;
-    padding-right: 33.33%;
+#titulo1{
+    font-size: 250%;
 }
