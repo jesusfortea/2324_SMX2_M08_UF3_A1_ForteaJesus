@@ -1,0 +1,57 @@
+
+/*
+    Estilos de la web
+*/
+
+/*
+    Añadimos el estilo del encabezado, este le implementamos un fondo de la imagen de batman con texto dentro incluido
+    para ello necesitaremos una sola imagen, más adelante, en el html, implementaremos el texto en él.
+*/
+
+#encabezado{
+    width: 100%;
+    background-image: url(../Img/BatmanImages/header_background.jpeg);
+    height: 100%;
+}
+
+/*
+    Hacemos el display flex dentro del articulo de la web
+*/
+
+#article_web{
+    width: 100%;
+}
+
+#cuerpo{
+    width: 100%;
+    font-size: 107%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#h1{
+    font-size: 135%;
+}
+
+.imagen{
+    width: 100%;
+}
+
+.link{
+    color: green;
+}
+
+#sección{
+    width: 100%;
+    font-size: 107%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#espacio1{
+    width: 33.33%;
+    padding-left: 33.33%;
+}
+
+#espacio2{
+    width: 33.33%;
+    padding-right: 33.33%;
+}
