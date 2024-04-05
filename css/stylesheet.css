@@ -22,6 +22,10 @@
     padding-left: 25%;
 }
 
+.espacio_encabezado{
+    padding-left: 25%;
+}
+
 #espaciotit{
     padding-left: 6%;
 }
@@ -31,6 +35,11 @@
     font-size: 300%;
     color: aliceblue;
     width: 50%;
+}
+
+#h1_pers{
+    color:red;
+    text-decoration: none;
 }
 
 .estilo{
@@ -72,4 +81,44 @@
     text-align: center;
     background-color: black;
     color: darkgrey;
+}
+
+@media screen and (max-width: 800px) {
+
+    #encabezado{
+        width: 85%;
+        background-image: url(../Img/BatmanImages/header_background.jpeg);
+        display: flex;
+        align-items: center;
+        font-size: 60%;
+    }
+    
+    .espacio{
+        padding-left: 1%;
+    }
+    
+    #espaciotit{
+        padding-left: 1%;
+    }
+
+    
+    #titulo1{
+    font-size: 200%;
+    }
+
+    #párrafo{
+    font-size: 98%;
+    }
+
+    #titulo2{
+    font-size: 120%;
+    }
+
+    .estilo3{
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 200%;
+    }
+
 }
