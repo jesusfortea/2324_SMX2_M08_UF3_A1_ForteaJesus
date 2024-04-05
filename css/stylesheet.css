@@ -83,6 +83,15 @@
     color: darkgrey;
 }
 
+#tabla{
+    border: 2px solid black;
+    text-align: center;
+}
+
+#imagen{
+    width: 200px;
+}
+
 @media screen and (max-width: 800px) {
 
     #encabezado{
